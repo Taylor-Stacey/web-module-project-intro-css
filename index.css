@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*{
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family:'Roboto Mono', monospace;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**nav styles**/
+header{
+    width: 100%;
+    height: 10rem;
+    
+}
+
+nav{
+    width:75%;
+    height:5rem;
+   
+    margin:0 auto;
+    text-align: center;
+}
+
+.links{
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 1.9rem;
+    line-height: 5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color:white;
+}
+
+.links:nth-child(1){
+    background-color: #ff764e;
+}
+.links:nth-child(2){
+    background-color: #5ed3fb;
+}
+.links:nth-child(3){
+    background-color: #ffcd69;
+}
+
+/* hero section*/
+
+.hero_section{
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.round_img, .hero_text{
+    display: inline-block;
+    padding:1rem 1rem;
+    vertical-align: middle;
+}
+
+.round_img {
+   width:25%;
+}
+
+.round_img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.hero_text{
+    height:18rem;
+}
+
+.hero_text h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero_text p {
+    margin-bottom: 2rem;
+}
+
+.hero_text > p:nth-child(3){
+width: 50%;
+margin: 0 auto;
+}
+
+/* about*/
+
+.about{
+    margin: 0 auto;
+    background-color: #DDB9A3;
+    height:9rem;
+    padding: .5rem;
+    width: 95%;
+    
+}
+
+.about p{
+    color: white;
+    margin: .5rem;
+    text-align: center;
+    width: 80%;
+    padding: .5rem 0;
+}
+
+.about p:nth-child(1){
+    margin-bottom: 1rem;
+}
+
+/*campfire/van section*/
+
+.campfire, .van_section {
+    margin:0 auto;
+    width: 35%;
+    text-align: center;
+}
+
+.campfire_img, .van_img{
+    margin: 0 auto;
+    width: 50%;
+    height: 12rem;
+}
+
+.campfire_img img, .van_img img{
+    width: 100%;
+}
+
+.campfire_text, .van_text {
+    line-height: 1.2;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.van_img{
+    margin-bottom: 1rem;
+}
+
+/*footer*/
+
+footer{
+    background-color: #F9E7DC;
+}
+
+.footer_img{
+    width: 100%;
+    height: 10rem;
+    background-image: url(./assets/footer_img.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 25% 25%;
+}
+
+footer>nav {
+    padding-top: 1.1rem;
+    width: 100%;
+    height: 7rem;
+}
